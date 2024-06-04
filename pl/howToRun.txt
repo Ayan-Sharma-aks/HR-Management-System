@@ -1,0 +1,10 @@
+to run Main.java
+java -classpath ..\dl\build\libs\dl.jar;..\common\dist\hr-common.jar;..\bl\build\libs\bl.jar;build\libs\pl.jar;libs\*;. com.thinking.machines.hr.pl.Main
+
+with dbdl
+java -classpath ..\dbdl\build\libs\dbdl.jar;..\bl\build\libs\bl.jar;..\common\dist\hr-common.jar;build\libs\pl.jar;libs\*;c:\mysqljar\mysql.jar;. com.thinking.machines.hr.pl.Main
+
+
+
+to run addTestcase
+java -classpath ..\common\dist\hr-common.jar;..\dl\dist\hr-dl-1.0.jar;..\dl\testcases;. designationAdd (name)
